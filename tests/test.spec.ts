@@ -20,7 +20,6 @@ test('valid login', async ({ page }) => {
     checkoutPage.fillInfoData('mostafa', 'gamal', '1234');
     checkoutPage.clickOnContinueButton();
     confirmationPage.clickOnFinishButton();
-    //confirmationPage.assertONConfirmedMessage();
 });
 
 
